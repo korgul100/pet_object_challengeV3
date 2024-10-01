@@ -14,7 +14,13 @@
 
 class Main {
   public static void main(String[] args) {
-   // Place your code here //
-   // Mr. Reed
+   // zero argument Pet constructor
+   Pet pet1 = new Pet();
+
+   // three 6 argument Pet constructors
+   Pet pet2 = new Pet("dog", "Wool", 10, 48.5, false, true);
+
+   System.out.println(pet1.toString());
+   System.out.println(pet2.toString());
   }
 }
